@@ -41,7 +41,8 @@ repositories {
 
 
 dependencies {
-    compile 'com.github.nelyousfi:analytics-android:yas-version-SNAPSHOT'
+    // compile 'com.github.nelyousfi:analytics-android:yas-version-SNAPSHOT'
+    api 'com.segment.analytics.android:analytics:4.+'
 
     api 'com.facebook.react:react-native:+'
     api 'org.jetbrains.kotlin:kotlin-stdlib:1.3.21'
